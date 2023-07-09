@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.temp h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.container{
+    display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,4fr));
+gap: 50px;
+margin: 0 auto;
+max-width: 900px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content label{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+input{
+    padding: 6px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}  
